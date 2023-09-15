@@ -1,0 +1,19 @@
+﻿<Window x:Class="Асинхронное_рисование_графиков.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Асинхронное_рисование_графиков"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas x:Name="cv">
+            <Image x:Name="im1" Source="C:\Users\PertsevNV\Desktop\projectrocket\Canvas.png" Height="400" />
+        </Canvas>
+        <Button x:Name="b1" Width="200" Height="40" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="20" Content="Расчет" Click="b1_Click" />
+        <ListView x:Name="lb" Width="300" Height="250" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="50" />
+        <Button x:Name="b2"  Width="150" Height="20" Content="Прочее взаимодействие" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0 80 20 0" Click="b2_Click"/>
+        <Button x:Name="b3" Content="TCP Сообщение с обратной связью" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0 80 200 0" Click="b3_Click" />
+
+    </Grid>
+</Window>

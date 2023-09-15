@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Асинхронное рисование графиков", "Асинхронное рисование графиков.csproj", "{DAE8B418-7073-4014-A911-279D6018B2FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "СерверДанныеГрфиков", "..\Асинхронное рисование графиков\СерверДанныеГрфиков\СерверДанныеГрфиков.csproj", "{549B7620-F6FD-4206-AF93-497653EBAE82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAE8B418-7073-4014-A911-279D6018B2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE8B418-7073-4014-A911-279D6018B2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE8B418-7073-4014-A911-279D6018B2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE8B418-7073-4014-A911-279D6018B2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549B7620-F6FD-4206-AF93-497653EBAE82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549B7620-F6FD-4206-AF93-497653EBAE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549B7620-F6FD-4206-AF93-497653EBAE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549B7620-F6FD-4206-AF93-497653EBAE82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D46FF53-B50B-4D8F-B7D0-333F0C75606E}
+	EndGlobalSection
+EndGlobal
